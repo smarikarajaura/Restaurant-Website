@@ -1,0 +1,481 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  margin:0px; padding:0px; box-sizing:border-box;
+}
+body{
+  font-family: "Poppins", sans-serif;
+  overflow:auto;
+}
+
+a{text-decoration: none;}
+
+.container{
+  width:1200px;margin:auto;
+  gap:50px;
+}
+.flex{
+  display:flex; justify-content: space-between;
+  align-items: center;
+}
+nav ul{
+  display:flex;
+  gap:20px;
+  list-style: none;
+}
+nav a{
+  color:orange;
+
+}
+.logo span{
+  color:orange;
+}
+.logo h2{
+  color:black;
+  
+
+
+}
+
+.banner-left h1{
+  font-size:44px;
+  padding:20px 0;
+  color:black;
+ 
+ 
+  
+ 
+}
+.banner-left p{
+  padding:20px 0px;
+  color:black;
+  font-size: 44px;
+
+  
+
+  
+
+  
+ 
+
+
+}
+
+
+.btn a{
+  background:orange;
+  color:white;
+  padding:1px ;
+  gap:30px;
+ 
+  
+
+
+  
+}
+
+
+
+
+ 
+.counter{
+  background:orange;
+  color:white;
+ 
+ 
+
+ }
+
+
+.btn1
+ {
+  border:2px solid  orange;
+ 
+  box-shadow:0 0 5px 1px #555555 ;
+  color:black;
+  padding:6px;
+
+
+ }
+ .flex1{
+  display:flex;
+  gap:0px;
+
+
+
+
+  
+ }
+
+ .service{
+  padding:25px ;
+  
+
+ }
+ .service-right h2{
+  font-size: 28px;
+  padding:20px;
+  color:black;
+
+
+  
+
+ }
+ .service-right p1{
+  padding:25px ;
+  font-size:19px;
+  color:black;
+  margin-bottom:20px;
+
+
+  
+
+ }
+ .btn88 a{
+  border:2px solid orange;
+  margin-left:45px;
+  color:white;
+  background :orange;
+  
+
+ }
+ .btn3 a{
+  border:5px solid orange;
+  background:orange;
+  padding:5px;
+  margin:20px;
+  color:black;
+
+ }
+
+.about-right{
+  padding:5px;
+
+  
+
+}
+.about-left h2{
+  font-size:30px;
+  color:black;
+  padding:5px;
+  margin-bottom: 30px;
+
+
+}
+.about-left p1{
+  font-size:12px;
+  padding:5px;
+  color:black;
+  padding:2px;
+  
+
+}
+.about-left ul{
+
+  font-size:18px;
+  padding:5px;
+  margin:30px;
+  list-style:none;
+  color:black;
+
+
+}
+.btn5 a{
+  border:2px solid orange;
+  background:orange;
+  color:white;
+  padding: 5px ;
+  margin:25px;
+  
+}
+.page{
+ padding:60px  ;
+ color:white;
+ text-align:center;
+ background:url(../img/unsplash_qYreP9QOdrk.jpg);
+
+ 
+
+}
+.container h1{
+  font-size:25px;
+  color:orange;
+  padding:20px;
+}
+.container p{
+  font-size:12px;
+  color:white;
+
+
+}
+
+.quote h1{
+  color:black;
+  text-align: center;
+  font-size:25px;
+
+}
+.quote  p{
+  color:black;
+  font-size:10px;
+  padding:10px;
+}
+
+
+ 
+
+
+
+
+
+.box2{
+ padding:20px ;
+
+
+
+ 
+ 
+}
+.box2 h2{
+  font-size:15px;
+  
+  
+ 
+
+}
+.box2 p{
+  font-size:10px;
+  
+  
+
+}
+.box2 p1{
+  color:orange;
+  
+}
+
+
+  
+
+.box3{
+  padding:20px;
+}
+.box3 h1{
+  font-size:15px;}
+.box3 p{
+  font-size: 10px;
+}
+.box3 p1{
+  color:orange;
+}
+
+
+.box4{
+  padding:20px;
+ 
+}
+.box4 h2{
+  font-size: 15px;
+
+
+ 
+}
+.box4 p{
+  font-size: 10px;
+  
+
+}
+.box4 p1{
+  color:orange;
+
+}
+
+.menu h1{
+ 
+  font-size:25px;
+  color:black;
+  text-align: center;
+  
+  
+}
+.menu2 p{
+  font-size:13px;
+  text-align:center;
+  padding:20px;
+
+
+
+
+}
+.box2 a{
+  border:10px;
+  background:orange;
+  color:black;
+
+ 
+
+ 
+}
+.box3 a{
+  border:10px;
+  background:orange;
+  color:black;
+}
+.box4 a{ 
+  border:10px;
+  background:orange;
+  color:black;
+}
+.body{
+  background:orange;
+}
+
+.design{
+  background:orange;
+  padding:20px;
+  margin:20px;
+
+  
+  
+}
+.design1 h1{
+  font-size:25px;
+  color:white;
+  text-align: center;
+  
+}
+.design2 {
+  background:white;
+ 
+  text-align: center;
+  padding:20px;
+  }
+.design3 p{
+  color:black;
+  padding:20px;
+  font-size:25px;
+}
+.design4 h2{
+  color:orange;
+  font-size: 10px;
+  
+
+}
+
+
+
+.container{
+  width:80;
+  margin-left:auto;
+  margin-right:auto;
+   padding:80px;
+}
+.question h2{
+  text-align:center;
+  font-size:19px;
+
+}
+.card{
+  display:flex;
+  font-size:10px;
+}
+.box{
+  margin-top:20px;
+  padding-left:30px;
+  padding-right:30px;
+
+}
+
+.box p{
+  color:black;
+}
+.book1 p{
+  color:red;
+}
+
+footer {
+  background: orange;
+  padding:20px ;
+  text-align: center;
+
+}
+footer ul{
+  list-style:none;
+  display:flex;
+  justify-content: center;
+  color:white;
+  gap:20px;
+  margin:50px 0;
+ 
+
+
+
+
+
+
+
+}
+
+.book{
+  background-image: url(../img/design6.png);
+  align-items: center;
+  
+  padding:50px;
+}
+.book-left h1{
+  color:white;
+}
+.book-right a{
+  color:white;
+  border:2px solid orange;
+  background:orange;
+  padding:7px;
+
+}
+
+.copy h2{
+  color:black;
+  text-align:center;
+  
+  font-size:30px;
+  margin-left:50px;
+ 
+}
+.copy p{
+  color:black;
+  text-align: center;
+  justify-content: center;
+  padding:20px;
+  margin-left:50px;
+
+}
+.btn11 a{
+  border:10px solid gray;
+
+}
+.copy{
+  padding:100px;
+  margin:0;
+  box-sizing: border-box;
+
+
+}
+.copy h1{
+  font-size:40px;
+  text-align: center;
+
+}
+.copy1{
+  text-align:center;
+}
+.copy1 button{
+  background:orange;
+  
+
+}
+
+
+
+
+
+
